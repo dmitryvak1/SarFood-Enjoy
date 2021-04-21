@@ -79,8 +79,8 @@
     flex-flow: row wrap;
   }
   .categor {
-    min-width: 120px;
-    max-width: 8%;
+    min-width: 150px;
+    max-width: 150px;
     float: left;
     background-color: aquamarine;
     text-decoration: none;
