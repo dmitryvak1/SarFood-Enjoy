@@ -60,12 +60,11 @@
     transition: all 0.2s ease;
 }
 .image {
-    width: 100%;
+    width: 99%;
     height: 124px;
     background-image: url(images/eda.jpg);
     /* background-color: aqua; */
     margin: 5px 0;
-    
   }
   .tovar {
     
@@ -78,22 +77,11 @@
     display: flex;/*Располагаем картинки внутри большого блока*/
     flex-flow: row wrap;
   }
-  .categor{
-    width: 200px;
-    /* float: left; */
-    background-color: aquamarine;
-    text-decoration: none;
-    line-height: 45px;
-    font-size: 2em;
-    border: 2px solid black;
-    font-size: 40px;
-    font-family: 'Arial', sans-serif;
-  }
-
   .categorii{
     width: 200px;
     /* float: left; */
     text-decoration: none;
+    
     line-height: 45px;
     font-size: 2em;
     border: 2px solid black;
