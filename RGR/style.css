@@ -1,7 +1,6 @@
 .container {
     width: 99%;
     margin: 0 auto;
-    list-style-type: none;
   }
 .logo {
     font-size: 40px;
@@ -47,7 +46,7 @@
     display: inline-block;
     vertical-align: top;
     margin-right: 16px;
-    min-width: 70px;
+    min-width: 160px;
     height: 45px;
     background-color: transparent;/*прозрачный фон*/
     border-radius: 12px;
@@ -75,11 +74,17 @@
     flex-flow: row wrap;
   }
 
-  .categorii{
+  ul{
+    padding-left: 0;
+    margin-left: 0;
+  }
 
-    width: 200px;
+  .categorii{
+    list-style-type: none;
+    text-align-last: center;
+    width: 230px;
     border: 2px solid black;
-    font-size: 40px;
+    font-size: 30px;
     font-family: 'Arial', sans-serif;
   }
 
