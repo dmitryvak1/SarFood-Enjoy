@@ -11,12 +11,13 @@
     font-family: 'Oswald', sans-serif; */
     font-size: 40px;
     font-family: 'Oswald', sans-serif;
+    background-image: url(images/logo.png);
 
     display: inline-block;
     vertical-align: top;
     margin-right: 16px;
-    min-width: 140px;
-    height: 140px;
+    min-width: 230px;
+    height: 100px;
     background-color: transparent;
     border-radius: 12px;
     box-sizing: border-box;
@@ -46,7 +47,7 @@
     text-decoration: none;
     line-height: 38px;
   }
-   #s1,#s2,#s3{
+   #s{
     font-family: 'Oswald', sans-serif;
     display: inline-block;
     vertical-align: top;
@@ -79,15 +80,11 @@
   }
   .categorii{
     width: 200px;
-    /* float: left; */
-    text-decoration: none;
-    
-    line-height: 45px;
-    font-size: 2em;
     border: 2px solid black;
     font-size: 40px;
     font-family: 'Arial', sans-serif;
   }
+
   .container:after, .row:after {
     content: "";
     display: table;
