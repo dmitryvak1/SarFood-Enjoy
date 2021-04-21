@@ -88,6 +88,16 @@
     font-size: 2em;
     border: 2px solid black;
   }
+
+  .categorii {
+    min-width: 150px;
+    max-width: 150px;
+    float: left;
+    text-decoration: none;
+    line-height: 38px;
+    font-size: 2em;
+    border: 2px solid black;
+  }
   .popular
   {
     min-width: 120px;
