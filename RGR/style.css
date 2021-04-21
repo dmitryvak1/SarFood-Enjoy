@@ -79,16 +79,15 @@
     flex-flow: row wrap;
   }
   .categor, .popular, .burger, .pizza {
-    min-width: 180px;
-    max-width: 180px;
+    width: 200px;
     /* float: left; */
     background-color: aquamarine;
     text-decoration: none;
-    line-height: 38px;
+    line-height: 45px;
     font-size: 2em;
     border: 2px solid black;
     font-size: 40px;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Arial', sans-serif;
   }
   .container:after, .row:after {
     content: "";
