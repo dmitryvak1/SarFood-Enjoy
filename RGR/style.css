@@ -1,0 +1,127 @@
+.container {
+    width: 99%;
+    /* max-width: 1020px; максимальная ширина может иметь другое значение */
+    margin: 0 auto;
+  }
+.logo {
+    /* float: left;
+    margin: 5px 0;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif; */
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 16px;
+    min-width: 140px;
+    height: 140px;
+    background-color: transparent;
+    border-radius: 12px;
+    box-sizing: border-box;
+    box-shadow: 0px -2px 8px 0px rgba(0,0,0,0.04), 0px 8px 8px 0px rgba(0,0,0,0.04);
+    transition: all 0.2s ease;
+  }
+  nav {
+    float: right;
+    margin: 5px 0;
+    font-size: 20px;
+  }
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  nav li {
+    display: inline-block; /*один из способов разместить элементы в строку*/
+    padding:0 5px; /*расстояние между словами "главная" о нас "контакты"*/
+  }
+  .container:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  nav a {
+    text-decoration: none;
+    line-height: 38px;
+  }
+   #s1,#s2,#s3{
+    font-family: 'Oswald', sans-serif;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 16px;
+    min-width: 70px;
+    height: 45px;
+    background-color: transparent;/*прозрачный фон*/
+    border-radius: 12px;
+    box-sizing: border-box;
+    box-shadow: 0px -2px 8px 0px rgba(0,0,0,0.04), 0px 8px 8px 0px rgba(0,0,0,0.04);
+    transition: all 0.2s ease;
+}
+.image {
+    width: 100%;
+    height: 124px;
+    background-image: url(images/eda.jpg);
+    /* background-color: aqua; */
+    margin: 5px 0;
+    
+  }
+  .tovar {
+    
+    min-width: 92%;
+    max-width: 92%;
+    float: right;
+    background-color: red;
+    height: 200px;
+
+    display: flex;/*Располагаем картинки внутри большого блока*/
+    flex-flow: row wrap;
+  }
+  .categor {
+    min-width: 120px;
+    max-width: 8%;
+    float: left;
+    background-color: aquamarine;
+    text-decoration: none;
+    line-height: 38px;
+    font-size: 2em;
+    border: 2px solid black;
+  }
+  .popular
+  {
+    min-width: 120px;
+    max-width: 8%;
+    text-decoration: none;
+    float: left;
+    font-size: 2em;
+    border: 2px solid black;
+  }
+  .burger
+  {
+    min-width: 120px;
+    max-width: 8%;
+    float: left;
+    font-size: 2em;
+    border: 2px solid black;
+  }
+  .pizza
+  {
+    min-width: 120px;
+    max-width: 8%;;
+    float: left;
+    font-size: 2em;
+    border: 2px solid black;
+  }
+
+  .container:after, .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+hr {
+    border: none; /* Убираем границу */
+    background-color: red; /* Цвет линии */
+    color: red; /* Цвет линии для IE6-7 */
+    height: 2px; /* Толщина линии */
+   }
