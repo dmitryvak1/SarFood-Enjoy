@@ -2,6 +2,7 @@
     width: 99%;
     /* max-width: 1020px; максимальная ширина может иметь другое значение */
     margin: 0 auto;
+    list-style-type: none;
   }
 .logo {
     /* float: left;
