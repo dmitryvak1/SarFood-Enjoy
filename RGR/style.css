@@ -18,10 +18,15 @@
     box-shadow: 0px -2px 8px 0px rgba(0,0,0,0.04), 0px 8px 8px 0px rgba(0,0,0,0.04);
     transition: all 0.2s ease;
   }
+  .logo:hover{
+    transform: scale(1.05);
+    transform: translateY(-2px);
+  }
   nav {
     float: right;
     margin: 5px 0;
     font-size: 20px;
+    color: PowderBlue;
   }
 
   nav ul {
@@ -57,7 +62,6 @@
     box-shadow: 0px -2px 8px 0px rgba(0,0,0,0.04), 0px 8px 8px 0px rgba(0,0,0,0.04);
     transition: all 0.2s ease;
 }
-
 .image {
     width: 99%;
     height: 124px;
@@ -71,10 +75,12 @@
     margin: auto ;
   }
   .tovar {
-    background-color: red;
-    height: 200px;
+    /* background-color: red; */
+    max-width: 86% ;
+    height: auto;
     margin-top:16px;
     margin-left: 20px;
+    border: 2px solid PowderBlue;
 
     display: flex;
     flex-flow: row wrap;/*Располагаем картинки внутри большого блока с автоматическим переносом на новую строку*/
@@ -84,10 +90,10 @@
     padding-left: 0;
   }
   .categorii{
-
     margin-bottom: 12px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     border-radius: 16px;
+    background-color: PowderBlue ;
     
     padding: 0 10px;
     list-style-type: none;
@@ -99,4 +105,8 @@
     transform: scale(1.05);
     transform: translateY(-5px);
     background-color:cornflowerblue ;
+  }
+  .kart{
+    margin: 20px 20px;
+    
   }
