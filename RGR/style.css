@@ -82,8 +82,9 @@
     margin-left: 20px;
     border: 2px solid PowderBlue;
 
-    display: flex;
-    flex-flow: row wrap;/*Располагаем картинки внутри большого блока с автоматическим переносом на новую строку*/
+    display: flex;/*Располагаем картинки*/
+    flex-flow: row wrap;/*Элементы отображаются с автоматическим переносом на новую строку*/
+    justify-content:space-around;/*Элементы отображаются с одинаковыми отступами между ними.*/
   }
   .ull{
     list-style-type: none;
