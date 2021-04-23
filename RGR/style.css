@@ -2,6 +2,7 @@
     width: 99%;
     margin: 0 auto;
   }
+  
 .logo {
     font-size: 40px;
     font-family: 'Oswald', sans-serif;
@@ -18,10 +19,12 @@
     box-shadow: 0px -2px 8px 0px rgba(0,0,0,0.04), 0px 8px 8px 0px rgba(0,0,0,0.04);
     transition: all 0.2s ease;
   }
+
   .logo:hover{
     transform: scale(1.05);
     transform: translateY(-2px);
   }
+
   nav {
     float: right;
     margin: 5px 0;
@@ -44,11 +47,13 @@
     text-decoration: none;
     line-height: 38px;
   }
+
 #s:hover{
   transform: scale(1.05);
   transform: translateY(-5px);
   background-color:cornflowerblue ;
 }
+
    #s{
     font-family: 'Oswald', sans-serif;
     display: inline-block;
@@ -62,6 +67,7 @@
     box-shadow: 0px -2px 8px 0px rgba(0,0,0,0.04), 0px 8px 8px 0px rgba(0,0,0,0.04);
     transition: all 0.2s ease;
 }
+
 .image {
     width: 99%;
     height: 174px;
@@ -69,11 +75,13 @@
     /* background-color: aqua; */
     margin: 5px 0;
   }
+
   .page{
     display: flex;
     flex-direction: row;
     margin: auto ;
   }
+
   .tovar {
     /* background-color: red; */
     max-width: 86% ;
@@ -86,10 +94,12 @@
     flex-flow: row wrap;/*Элементы отображаются с автоматическим переносом на новую строку*/
     justify-content:space-around;/*Элементы отображаются с одинаковыми отступами между ними.*/
   }
+
   .ull{
     list-style-type: none;
     padding-left: 0;
   }
+
   .categorii{
     margin-bottom: 12px;
     /* border: 2px solid black; */
@@ -102,12 +112,18 @@
     font-size: 30px;
     font-family: 'Arial', sans-serif;
   }
+
   .categorii:hover{
     transform: scale(1.05);
     transform: translateY(-5px);
     background-color:cornflowerblue ;
   }
+
   .kart{
     margin: 20px 20px;
     
+  }
+
+  a {
+    color: dodgerblue;
   }

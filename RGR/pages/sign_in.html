@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>массив</title>
+	<title>Вход</title>
+	<link rel="stylesheet" href="sign_in.css">
 	<link rel="stylesheet" href="C:\Users\Саша\Desktop\SarFood enjoy\SarFood-Enjoy\RGR\style.css">
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- <h1>Сайт для заказа еды</h1> -->
@@ -23,57 +22,56 @@
         </div>
       </header>
 
-      <div class="container" style="display: flex; flex-direction: column; justify-content: flex-end;">
-		<form action="check.php" method="post">
-			<fieldset>
-				<div class="authorization">
-					<h1>Авторизация</h1>
+      <div class="container">
+			<form action="check.php" method="post">
+				<div class="container">
+					<h1 align = "center">Авторизация</h1>
+				
 					<div class="block">
-						<div class="group">
-							<label class="login">Логин</label>
-							<input type="text" name="login" required="required" pattern="^[a-zA-Z]+$">
-						</div>
-						<div class="group">
-							<label class="password">Пароль</label>
-							<input type="password" name="password" required="required" pattern="[A-Za-z0-9]{8,32}">
-						</div>
+						<input type="text" placeholder="Введите логин" name="login" required>
 					</div>
-					<div class="button">
-							<button type="submit">Войти</button>
+				
+					<div class="block">
+						<input type="password" placeholder="Введите пароль" name="password" required>
 					</div>
-				</div>
-			</fieldset>
-		</form>
+
+					<hr color="green" size="5px" width="30%">
+				
+					<button type="submit" class="authorization">Авторизоваться</button>
+				  </div>
+			</form>
+
+			<hr>
 
 		<form action="check.php" method="post">
-			<fieldset>
-				<div class="registration">
-					<h1>Регистрация</h1>
-					<div class="block"> 
-						<div class="group">
-							<label class="login">Придумайте логин</label>
-							<input type="text" name="login" required="required" pattern="^[a-zA-Z]+$">
-						</div>
-						<div class="group">
-							<label class="passowrd">Придумайте пароль</label>
-							<input type="passowrd" name="passowrd" required="required" pattern="[A-Za-z0-9]{8,32}">
-					    </div>
-                        <div class="group">
-							<label class="password">Повторите пароль</label>
-							<input type="passowrd" name="passowrd" required="required" pattern="[A-Za-z0-9]{8,32}">
-					    </div>
-                        <div class="group">
-                            <label class="Email">E-mail</label>
-                            <input required="required" type="email" name="E-mail">
-                        </div>
-					    </div>
-					    <div class="button">
-						    <div class="button">
-							    <button type="submit">Зарегистрироваться</button>
-					    </div>
+				<form action="action_page.php">
+					<div class="container">
+					  <h1 align = "center">Регистрация</h1>
+				  
+					  <div class="block">
+					  	<input type="text" placeholder="Придумайте логин" name="login" required>
+					  </div>
+
+					  <div class="block">
+					  	<input type="password" placeholder="Придумайте пароль" name="password" required>
+					  </div>
+				  
+					  <div class="block">
+					  	<input type="password" placeholder="Повторите пароль" name="password-repeat" required>
+					  </div>
+
+					  <div class="block">
+					  	<input type="email" placeholder="Введите ваш электронный адрес" name="email" required>
+					  </div>
+
+					  <hr color="green" size="5px" width="30%">
+				  
+					  <button type="submit" class="registration">Зарегистрироваться</button>
 					</div>
-				</div>
-			</fieldset>
-		</form>
+				  
+					<div class="container signin">
+					  <p>Уже есть аккаунт? <a href="#">Sign in</a>.</p>
+					</div>
+				  </form>
 	</div>      
 </body>
