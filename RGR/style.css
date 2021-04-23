@@ -55,6 +55,8 @@
 }
 
    #s{
+    text-align: center;
+    font-size: 1.3em;
     font-family: 'Oswald', sans-serif;
     display: inline-block;
     vertical-align: top;
@@ -64,8 +66,8 @@
     background-color: transparent;/*прозрачный фон*/
     border-radius: 12px;
     box-sizing: border-box;
-    box-shadow: 0px -2px 8px 0px rgba(0,0,0,0.04), 0px 8px 8px 0px rgba(0,0,0,0.04);
     transition: all 0.2s ease;
+    box-shadow: 0px -2px 8px 0px rgba(0,0,0,0.04), 0px 8px 8px 0px rgba(0,0,0,0.04);
 }
 
 .image {
@@ -110,7 +112,7 @@
     list-style-type: none;
     text-align-last: center;
     font-size: 30px;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Oswald', sans-serif;
   }
 
   .categorii:hover{
