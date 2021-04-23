@@ -125,16 +125,18 @@
     margin: 20px 20px;
     position: relative;
     text-align: center;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    box-shadow: 15px 10px 25px -15px rgb(0, 0, 0, 0.4);
+    border-radius: 15px;
   }
 
   .notes {
     position: absolute;
     top: 255px;
     width: 100%;
+    height: 28%;
     background-color: white;
     color: black;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
   a {
@@ -144,5 +146,5 @@
   .photo{
     width: 350px;
     height: 350px;
-    border-radius: 5px;
+    border-radius: 11px;
   }
