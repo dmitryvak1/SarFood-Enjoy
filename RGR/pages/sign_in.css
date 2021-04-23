@@ -46,6 +46,13 @@ a {
 }
 
 .signin {
-  background-color: #f1f1f1;
-  text-align: center;
-}
+    padding: 16px;
+    background-color: #f1f1f1;
+    text-align: center;
+    position: fixed; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    /* padding: 10px; Поля вокруг текста */
+    /* background: #39b54a; Цвет фона */
+    /* color: #fff; Цвет текста */
+    width: 100%; /* Ширина слоя */
+   }

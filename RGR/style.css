@@ -1,7 +1,6 @@
 .container {
-    width: 99%;
-    margin: 0 auto;
-  }
+  padding: 16px;
+}
   
 .logo {
     font-size: 40px;
@@ -91,6 +90,7 @@
     margin-top:16px;
     margin-left: 20px;
     border: 2px solid PowderBlue;
+    background-color: white;
 
     display: flex;/*Располагаем картинки*/
     flex-flow: row wrap;/*Элементы отображаются с автоматическим переносом на новую строку*/
@@ -123,20 +123,26 @@
 
   .kart{
     margin: 20px 20px;
-    
+    position: relative;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
   }
+
+  .notes {
+    position: absolute;
+    top: 255px;
+    width: 100%;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
 
   a {
     color: dodgerblue;
   }
+
   .photo{
     width: 350px;
     height: 350px;
-  }
-  .notes{
-    background-color: grey;
-    width: 350px;
-    height: 40px;
-    padding:1px;
-    word-wrap:break-word;
+    border-radius: 5px;
   }
