@@ -129,3 +129,14 @@
   a {
     color: dodgerblue;
   }
+  .photo{
+    width: 350px;
+    height: 350px;
+  }
+  .notes{
+    background-color: grey;
+    width: 350px;
+    height: 40px;
+    padding:1px;
+    word-wrap:break-word;
+  }
