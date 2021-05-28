@@ -1,0 +1,11 @@
+eclipse.preferences.version=1
+encoding//src/main/java=UTF-8
+encoding//src/main/resources=UTF-8
+encoding//src/main/resources/db/migration/V1__Init_DB.sql=UTF-8
+encoding//src/main/resources/db/migration/V2__Add_menu.sql=UTF-8
+encoding//src/main/resources/messages/messages_en.properties=UTF-8
+encoding//src/main/resources/messages/messages_ru.properties=UTF-8
+encoding//src/main/resources/messages/messages_ua.properties=UTF-8
+encoding//src/test/java=UTF-8
+encoding//src/test/resources=UTF-8
+encoding/<project>=UTF-8
